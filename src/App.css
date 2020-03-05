@@ -1,0 +1,385 @@
+* {padding: 0;
+  margin: 0;
+}
+.App-logo {
+  height: 30px;
+
+}
+.Header {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+
+}
+.list {
+  display: flex;
+  position: relative;
+  list-style: none;
+  padding: 0 5px ;
+}
+.titre {
+justify-content: space-around;
+padding: 0 5px ;
+font-family: Arial, Helvetica, sans-serif;
+color: #ababab;
+
+}
+.dropdown {
+color: #ababab;
+list-style: none;
+left: 44px;
+width: 250px;
+height: 160px;
+font-family: sans-serif;
+font-size: 14px;
+display: none;
+position: absolute;
+padding: 5px;
+width: 70%;
+
+
+}
+.titre:last-of-type:hover    .dropdown {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 7px 6px 11px -2px rgba(166,161,166,1);
+  cursor: pointer;
+  
+
+  
+}
+.titre:first-of-type {
+
+  color: #00b39b;
+}
+.titre:hover {
+color: #00b39b;
+
+
+}
+.dropdown *{
+  padding: 6px 9px;
+  left: 44px;
+  
+  }
+  .dropdown *:hover {
+  background-color: silver;
+  color: #00b39b;
+  
+}
+  .logo {
+    padding-top: 104px;
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+  .titre1 {
+    color: #00b39b;
+    padding: 20px;
+    font-size: 33px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+  }
+  .div-paragraph {
+    display: flex;
+    width: 90%;
+    padding: 16px;
+    color: #747474;
+    font-family: Helvetica;
+    padding-bottom: 50px;
+    margin-left: 96px;
+    line-height: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  .paragraph {
+    margin: 10px;
+    margin-bottom: -7px;
+    margin-top: -6px;
+  }
+  .Cards {
+    display: flex;
+    justify-content: center;
+
+
+  }
+  .Card-1 {
+    background-color: #00ccb1;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 33%;
+  }
+  .Card-2 {
+    background-color: #3d83df;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 33%;
+  }
+  
+.pc {
+  height: 248px;
+  width: 397px;
+  margin-left: 185px;
+  margin-top: -30px;
+
+
+}
+ .Card-2 img {
+  margin: 40px 0px 0px 175px;
+
+
+} 
+.patient {
+  color: hsla(0,0%,100%,.7);
+
+}
+.paragh {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 300;
+
+
+}
+.button-country {
+  background-color: white;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 30px;
+  font-weight: 600;
+
+
+}
+.company {
+  display: flex;
+  justify-items: baseline;
+  justify-content: center;
+
+}
+.text-1 {
+  padding-right: 0px;
+  padding-top: 19px;
+  font-size: 25px;
+  padding-bottom: 31px;
+  font-family: Helvetica;
+  color:#00b39b;
+  font-weight: 530;
+  max-width: 200px;
+
+
+}
+.svg-right {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 45%;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  cursor: pointer;
+  padding-left: 198px;
+
+
+
+}
+.image {
+height: 20px;
+float: left;
+padding-right: 4px;
+
+}
+.svg-2 {
+  display: inline-block;
+  text-decoration: none;
+ font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  color: gray;
+
+
+}
+.svgi , li {
+  list-style-type: none;
+
+}
+.Services {
+  background-image: url("https://www.docplanner.com/img/logo.png");
+    background-repeat: no-repeat;
+    background-color: #e5faf8;
+    background-position:  200px 200px;
+    display: flex;
+justify-content: baseline;
+padding: 1.875em 0 .625em;
+overflow: hidden;
+}
+.Service1 {
+  display: flex;
+    margin: 0 194px;
+}
+.Service2 {
+  position: relative;
+  padding-left: 129px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 42%;
+
+
+}
+.Service3{
+  padding: 10px;  
+  width: 140px;
+  height: 144px;
+  margin: 10px;  
+  background: #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  width: 130px;
+  font-size: .8125em;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+  color: #00b39b;
+}
+.text-2 h1 {
+  color: #00b39b;
+font-size: 35px;
+line-height: 39px; 
+font-family: Arial, Helvetica, sans-serif; 
+font-weight: 300;
+}
+.text-2 p {
+  color: #747474;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+  max-width: 415px;
+  font-size: .875em;
+  font-weight: 400;
+  line-height: 1.7142857143;
+  width: 154%;
+}
+.office-header {
+
+max-width: 460px;
+margin: 0 auto 4.1875rem;
+font-size: .875em;
+text-align: center;
+}
+.office-header h1 {
+  color: #00b39b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  padding: 15px;
+  margin: 30px;
+  font-size: 29px;
+  line-height: 35px;
+  }
+  .office-header p {
+  color: #747474;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: -6px;
+  line-height: 25px;
+  
+  }
+  .countries {
+    display: flex;
+    flex-wrap: wrap;
+    width: 74%;
+    margin: auto;
+    padding: 64px;
+    padding-top: 1px;
+
+    
+  }
+  .box2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #747474;
+  }
+  .box2 a {
+    margin: 10px 10px;
+    padding: 7px;
+text-decoration: none;    
+
+
+  }
+  .countries-info {
+    margin: 10px;
+    border-radius: 8px;
+  }
+  .countries-info:hover{
+    box-shadow: 6px 11px 16px -6px rgba(0,0,0,0.74);
+}
+.button-1 {
+
+  background-color: #4CAF50;
+    font-family: Helvetica;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    line-height: 1em;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+    font-size: 11px;
+    margin: 10px 10px;
+    padding: 7px;
+    cursor: pointer;
+}
+.button-1 {
+  background-color: #3d83df; 
+  color: white; 
+  border: 2px solid #3d83df;
+}
+
+.button-1:hover {
+  background-color: #3d83df;
+  color: white;
+}
+.box3 {
+ color: #747474;
+ font-family: sans-serif;
+}
+.img-1 {
+ 
+  border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+
+}
+.Footer-1 {
+  border-top: 1px solid #eef2f2;
+  font-size: .75em;
+  color: #ababab;
+  text-align: center;
+  padding: 1em 0;
+}
+.final-footer {
+  max-width: 1015px;
+  padding: 0 20px;
+  margin: 0 auto;
+  position: relative;
+  line-height: 22px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
